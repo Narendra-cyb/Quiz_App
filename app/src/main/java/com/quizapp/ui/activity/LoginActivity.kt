@@ -36,7 +36,7 @@ class LoginActivity : AppCompatActivity() {
 
         googleSignInClient = GoogleSignIn.getClient(this, gso)
 
-        binding.bSignUpGoogle.setOnClickListener {
+        binding.SignUpGoogle.setOnClickListener {
             signInGoogle()
         }
 
@@ -46,14 +46,14 @@ class LoginActivity : AppCompatActivity() {
             intent.putExtra("name", registered.displayName)
             startActivity(intent)
         }
-            binding.tvNew.setOnClickListener {
+            binding.New.setOnClickListener {
                 val intent1 = Intent(this, SignUpActivity::class.java)
                 startActivity(intent1)
             }
 
-            binding.bLogin.setOnClickListener {
-                val email = binding.etEmail.text.toString()
-                val pass = binding.etPass.text.toString()
+            binding.login.setOnClickListener {
+                val email = binding.Email.text.toString()
+                val pass = binding.Pass.text.toString()
 
                 if(email.isNotEmpty() && pass.isNotEmpty()) {
                     firebaseAuth.signInWithEmailAndPassword(email, pass).addOnCompleteListener {

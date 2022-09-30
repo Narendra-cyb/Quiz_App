@@ -1,15 +1,14 @@
 package com.quizapp.ui.fragment
 
-import android.content.res.Resources
 import android.graphics.Color
 import android.os.Bundle
-import android.os.CountDownTimer
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.view.animation.AnimationUtils
+import android.widget.Button
 import android.widget.Toast
-import androidx.annotation.DrawableRes
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.lifecycle.Observer
@@ -23,9 +22,10 @@ import com.quizapp.repository.QuizRepository
 import com.quizapp.viewmodel.QuizViewModel
 import com.quizapp.viewmodel.QuizViewModelFactory
 import java.util.*
-import java.util.concurrent.TimeUnit
 
 class McqFragment(val position : Int) : Fragment() {
+
+//in onCreate()
 
     //private lateinit var questionsList : List<Result>
     private  var questionsList = emptyList<Result>()
@@ -43,9 +43,13 @@ class McqFragment(val position : Int) : Fragment() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
+//in onCreate()
+
+
     }
 
     override fun onCreateView(
+
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
@@ -122,6 +126,7 @@ class McqFragment(val position : Int) : Fragment() {
                 }
                 binding.button1.setBackgroundColor(Color.WHITE)
                 binding.save.setBackgroundColor(Color.GREEN)
+
             }else{
                 isSelectedBtn1 = true
                 isSelected = true
@@ -130,6 +135,8 @@ class McqFragment(val position : Int) : Fragment() {
                 binding.button1.setTextColor(Color.BLACK)
                 binding.button1.setBackgroundColor(Color.CYAN)
                 binding.save.setBackgroundColor(Color.GREEN)
+
+
             }
         }
         binding.button2.setOnClickListener {
@@ -196,6 +203,9 @@ class McqFragment(val position : Int) : Fragment() {
             }
         }
         binding.save.setOnClickListener {
+            val rotate = AnimationUtils.loadAnimation(context, R.anim.animation)
+
+            binding.line.startAnimation(rotate)
             val correctOptionsList = questionsList[0].questions[position].correct_answers
             val size = correctOptionsList.size
             if (!isSelected) {
@@ -209,23 +219,36 @@ class McqFragment(val position : Int) : Fragment() {
                 }
                 for (i in 0 until size){
                     when(correctOptionsList[i]){
-                        1 -> binding.button1.setBackgroundColor(Color.GREEN)
-                        2 -> binding.button2.setBackgroundColor(Color.GREEN)
-                        3 -> binding.button3.setBackgroundColor(Color.GREEN)
-                        4 -> binding.button4.setBackgroundColor(Color.GREEN)
+                        1 -> {
+                            binding.button1.setBackgroundColor(Color.GREEN)
+                        }
+                        2 -> {
+                            binding.button2.setBackgroundColor(Color.GREEN)
+                        }
+                        3 -> {
+                            binding.button3.setBackgroundColor(Color.GREEN)
+                        }
+                        4 -> {
+                            binding.button4.setBackgroundColor(Color.GREEN)
+                        }
+
                     }
                 }
                 if (!correctOptionsList.contains(1)){
                     binding.button1.setBackgroundColor(Color.RED)
+                    binding.line.setBackgroundTintList(context?.getResources()?.getColorStateList(R.color.green))
                 }
                 if(!correctOptionsList.contains(2)){
                     binding.button2.setBackgroundColor(Color.RED)
+                    binding.line.setBackgroundTintList(context?.getResources()?.getColorStateList(R.color.teal_700))
                 }
                 if(!correctOptionsList.contains(3)){
                     binding.button3.setBackgroundColor(Color.RED)
+                    binding.line.setBackgroundTintList(context?.getResources()?.getColorStateList(R.color.teal_200))
                 }
                 if(!correctOptionsList.contains(4)){
                     binding.button4.setBackgroundColor(Color.RED)
+                    binding.line.setBackgroundTintList(context?.getResources()?.getColorStateList(R.color.red))
                 }
                 binding.button1.isEnabled = false
                 binding.button2.isEnabled = false

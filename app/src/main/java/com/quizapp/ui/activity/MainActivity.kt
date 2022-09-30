@@ -38,15 +38,15 @@ class MainActivity : AppCompatActivity() {
         val email = intent.getStringExtra("email")!!
         val name = intent.getStringExtra("name")!!
 
-        binding.bStartQuiz.setOnClickListener {
+        binding.StartQuiz.setOnClickListener {
             val intent = Intent(this, QuizActivity::class.java)
             startActivity(intent)
         }
-        binding.bProfile.setOnClickListener {
+        binding.Profile.setOnClickListener {
             showProfileDialog(email,name,firebaseAuth)
         }
 
-        binding.bSignOut.setOnClickListener {
+        binding.SignOut.setOnClickListener {
             firebaseAuth.signOut()
             val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)

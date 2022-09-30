@@ -3,6 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/naren/AndroidStudioProjects/Quiz_app/app/src/main/res/layout/activity_main.xml" value="0.1796875" />
+        <entry key="..\:/Users/naren/AndroidStudioProjects/Quizee/app/src/main/res/drawable/animation.xml" value="0.1395" />
+        <entry key="..\:/Users/naren/AndroidStudioProjects/Quizee/app/src/main/res/drawable/button.xml" value="0.14" />
+        <entry key="..\:/Users/naren/AndroidStudioProjects/Quizee/app/src/main/res/drawable/button_option_shape.xml" value="0.14" />
+        <entry key="..\:/Users/naren/AndroidStudioProjects/Quizee/app/src/main/res/drawable/line.xml" value="0.1395" />
+        <entry key="..\:/Users/naren/AndroidStudioProjects/Quizee/app/src/main/res/drawable/next_previous.xml" value="0.1455" />
+        <entry key="..\:/Users/naren/AndroidStudioProjects/Quizee/app/src/main/res/drawable/start_button.xml" value="0.1375" />
+        <entry key="..\:/Users/naren/AndroidStudioProjects/Quizee/app/src/main/res/drawable/timer_shape.xml" value="0.1375" />
+        <entry key="..\:/Users/naren/AndroidStudioProjects/Quizee/app/src/main/res/layout/activity_login.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/naren/AndroidStudioProjects/Quizee/app/src/main/res/layout/activity_main.xml" value="0.1796875" />
+        <entry key="..\:/Users/naren/AndroidStudioProjects/Quizee/app/src/main/res/layout/activity_quiz.xml" value="0.1796875" />
+        <entry key="..\:/Users/naren/AndroidStudioProjects/Quizee/app/src/main/res/layout/activity_result.xml" value="0.1796875" />
+        <entry key="..\:/Users/naren/AndroidStudioProjects/Quizee/app/src/main/res/layout/activity_sign_up.xml" value="0.1796875" />
+        <entry key="..\:/Users/naren/AndroidStudioProjects/Quizee/app/src/main/res/layout/fragment_mcq.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/naren/AndroidStudioProjects/Quizee/app/src/main/res/layout/profile_dialog.xml" value="0.1796875" />
         <entry key="..\:/Users/vibhu/AndroidStudioProjects/QuizApp/app/src/main/res/drawable/button_option_shape.xml" value="0.122" />
         <entry key="..\:/Users/vibhu/AndroidStudioProjects/QuizApp/app/src/main/res/drawable/edittext.xml" value="0.1" />
         <entry key="..\:/Users/vibhu/AndroidStudioProjects/QuizApp/app/src/main/res/drawable/selected_answer_option.xml" value="0.1" />

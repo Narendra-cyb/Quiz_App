@@ -1,69 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#A5FFA9"
+    android:orientation="vertical"
+    android:gravity="center"
     tools:context=".ui.activity.MainActivity"
-    android:background="#A50BD4">
-
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="0dp">
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/logo"
-        app:layout_constraintHeight_max="300dp"
-        app:layout_constraintWidth_max="300dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/bStartQuiz"
-        />
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/bStartQuiz"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:background="@drawable/start_button"
-        android:fontFamily="@font/poppins_bold"
-        android:text="Start Quiz"
-        android:textColor="@color/white"
-        android:paddingVertical="10dp"
-        android:layout_margin="30dp"
-        android:textSize="36dp"
-        android:paddingHorizontal="30dp"
-        app:layout_constraintBottom_toTopOf="@id/bProfile"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:background="@drawable/quizicon"
+       />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/bProfile"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:background="@drawable/start_button"
+        android:id="@+id/StartQuiz"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="60dp"
+        android:background="#11433F"
         android:fontFamily="@font/poppins_bold"
+        android:paddingHorizontal="30dp"
+        android:paddingVertical="5dp"
+        android:text="Start"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Profile"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+
+        android:layout_margin="10dp"
+        android:layout_marginBottom="28dp"
+        android:background="#11433F"
+        android:fontFamily="@font/poppins_bold"
+        android:paddingHorizontal="30dp"
+        android:paddingVertical="5dp"
         android:text="Profile"
         android:textColor="@color/white"
-        android:paddingVertical="10dp"
-        android:textSize="36dp"
-        android:layout_margin="30dp"
-        android:paddingHorizontal="30dp"
-        app:layout_constraintBottom_toTopOf="@id/bSignOut"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:textSize="25dp"
+         />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/bSignOut"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:background="@drawable/start_button"
+        android:id="@+id/SignOut"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+
+        android:layout_margin="10dp"
+        android:layout_marginBottom="28dp"
+        android:background="#11433F"
         android:fontFamily="@font/poppins_bold"
+        android:paddingHorizontal="30dp"
+        android:paddingVertical="5dp"
         android:text="Sign Out"
         android:textColor="@color/white"
-        android:paddingVertical="10dp"
-        android:textSize="36dp"
-        android:layout_margin="30dp"
-        android:paddingHorizontal="30dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:textSize="25dp"
+        />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

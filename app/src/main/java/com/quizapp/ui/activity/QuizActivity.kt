@@ -1,6 +1,7 @@
 package com.quizapp.ui.activity
 
 import android.content.Intent
+import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.CountDownTimer
@@ -68,6 +69,7 @@ class QuizActivity : AppCompatActivity() {
                 Toast.makeText(this, "Quiz Finished", Toast.LENGTH_LONG).show();
             } else {
                 viewPager.currentItem = viewPager.currentItem + 1
+                binding.pager.setBackgroundColor(Color.GRAY)
             }
         }
 
@@ -107,7 +109,7 @@ class QuizActivity : AppCompatActivity() {
                     )
                 )
 
-                binding.tvTimer.text = sDuration
+                binding.Timer.text = sDuration
 
             }
 

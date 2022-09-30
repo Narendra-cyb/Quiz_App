@@ -22,8 +22,8 @@ class ResultActivity : AppCompatActivity() {
 
         val score = intent.getIntExtra("score",0)
         Log.d("PRI",score.toString())
-        binding.tvScore.text = "${(score*10)}/60"
-        binding.tvCorrect.text = "$score/6"
+        binding.Score.text = "${(score*10)}/60"
+        binding.Correct.text = "$score/6"
     }
 
     override fun onBackPressed() {
