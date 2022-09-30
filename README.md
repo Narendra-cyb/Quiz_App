@@ -18,10 +18,10 @@ DEVELOPED BY NARENDRA SAHU
 
 |   |   |   |
 |---|---|---|
-![quizlogo]https://drive.google.com/file/d/1NB7s0N0c2fmlICsuN75p4pRsvRtuyl9-/view?usp=sharing
-|![qzlogin]https://drive.google.com/file/d/1MmyYqRpU-IKMar1WzTV0rgn9Cgd_Y4iD/view?usp=sharing | ![qzprofile]https://drive.google.com/file/d/1Nl5_R5D5_52T5lDoKlFeHBCYWwFJlU5B/view?usp=sharing
-|![qzhome]https://drive.google.com/file/d/1N5RGkaPvPtcn2Mx49WfJLc9sZW80VNPy/view?usp=sharing | ![qzmcq1]https://drive.google.com/file/d/1N0mzSe-pAQMORxINGL6BybGe2_Fz9joZ/view?usp=sharing |![quick2]https://drive.google.com/file/d/1NrrXHrckducKoE3FOEBjF6RJVRGicJZE/view?usp=sharing)
-|![qzmcq]https://drive.google.com/file/d/1Nvjh-GWdTCY6Ejtpk02YPKQQM7XuG3z7/view?usp=sharing | ![qzscore]https://drive.google.com/file/d/1O3UReT_dJ4LoaZfOe70TVtgtvhNMHa_w/view?usp=sharing
+![quizlogo](https://github.com/Narendra-cyb/Quiz_App/blob/main/app/src/main/androidquiz/Picsart_22-09-30_19-18-21-786.jpg)
+|![qzlogin](https://github.com/Narendra-cyb/Quiz_App/blob/main/app/src/main/androidquiz/Screenshot_2022-09-30-19-56-53-255_com.quizapp.jpg) | ![qzprofile](https://github.com/Narendra-cyb/Quiz_App/blob/main/app/src/main/androidquiz/Screenshot_2022-09-30-20-05-46-629_com.quizapp.jpg)
+|![qzhome](https://github.com/Narendra-cyb/Quiz_App/blob/main/app/src/main/androidquiz/Screenshot_2022-09-30-19-56-26-105_com.quizapp.jpg)) | ![qzmcq1](https://github.com/Narendra-cyb/Quiz_App/blob/main/app/src/main/androidquiz/Screenshot_2022-09-30-19-56-39-107_com.quizapp.jpg) |![quick2](https://github.com/Narendra-cyb/Quiz_App/blob/main/app/src/main/androidquiz/Screenshot_2022-09-30-20-07-59-651_com.quizapp.jpg)
+|![qzmcq](https://github.com/Narendra-cyb/Quiz_App/blob/main/app/src/main/androidquiz/Screenshot_2022-09-30-20-09-00-390_com.quizapp.jpg) | ![qzscore](https://github.com/Narendra-cyb/Quiz_App/blob/main/app/src/main/androidquiz/Screenshot_2022-09-30-20-10-21-692_com.quizapp.jpg)
 
 
 
