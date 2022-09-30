@@ -1,6 +1,6 @@
 # **Quiz** 
 
-# **Developed By NARENDRA SAHU**
+DEVELOPED BY NARENDRA SAHU
 ### **Quiz** is a simple quiz app fetching mcq from retrofit!
 
  
