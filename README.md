@@ -1,9 +1,10 @@
 # **Quiz** 
 
+# **Developed By NARENDRA SAHU**
 ### **Quiz** is a simple quiz app fetching mcq from retrofit!
 
-NARENDRA SAHU
-
+ 
+ 
 ## App Features
 
 - **User Authentication** - Supports email based  and google sign in authentication 
