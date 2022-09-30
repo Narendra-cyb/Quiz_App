@@ -16,9 +16,9 @@ DEVELOPED BY NARENDRA SAHU
 
 ## 📸 Screenshots 
 
-|   |   |   |
-|---|---|---|
-![quizlogo](https://github.com/Narendra-cyb/Quiz_App/blob/main/app/src/main/androidquiz/Picsart_22-09-30_19-18-21-786.jpg) |![qzlogin](https://github.com/Narendra-cyb/Quiz_App/blob/main/app/src/main/androidquiz/Screenshot_2022-09-30-19-56-53-255_com.quizapp.jpg)
+|   |   |
+|---|---|
+![quizlogo](https://github.com/Narendra-cyb/Quiz_App/blob/main/app/src/main/androidquiz/Picsart_22-09-30_19-18-21-786.jpg)|![qzlogin](https://github.com/Narendra-cyb/Quiz_App/blob/main/app/src/main/androidquiz/Screenshot_2022-09-30-19-56-53-255_com.quizapp.jpg)
 |![qzprofile](https://github.com/Narendra-cyb/Quiz_App/blob/main/app/src/main/androidquiz/Screenshot_2022-09-30-20-05-46-629_com.quizapp.jpg) |![qzhome](https://github.com/Narendra-cyb/Quiz_App/blob/main/app/src/main/androidquiz/Screenshot_2022-09-30-19-56-26-105_com.quizapp.jpg)
 |![qzmcq1](https://github.com/Narendra-cyb/Quiz_App/blob/main/app/src/main/androidquiz/Screenshot_2022-09-30-19-56-39-107_com.quizapp.jpg) |![quick2](https://github.com/Narendra-cyb/Quiz_App/blob/main/app/src/main/androidquiz/Screenshot_2022-09-30-20-07-59-651_com.quizapp.jpg)
 |![qzmcq](https://github.com/Narendra-cyb/Quiz_App/blob/main/app/src/main/androidquiz/Screenshot_2022-09-30-20-09-00-390_com.quizapp.jpg) |![qzscore](https://github.com/Narendra-cyb/Quiz_App/blob/main/app/src/main/androidquiz/Screenshot_2022-09-30-20-10-21-692_com.quizapp.jpg)
