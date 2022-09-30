@@ -2,6 +2,7 @@
 
 ### **Quiz** is a simple quiz app fetching mcq from retrofit!
 
+NARENDRA SAHU
 
 ## App Features
 
